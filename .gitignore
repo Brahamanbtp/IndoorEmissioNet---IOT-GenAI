@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_convert
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache / Build
+dist/
+build/
+*.spec
+*.manifest
+*.bak
+
+# Local data / credentials
+*.env
+*.json
+*.sqlite
+*.db
+
+# Project specific
+project.log
